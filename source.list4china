@@ -1,0 +1,37 @@
+deb https://apt.llvm.org/xenial/ llvm-toolchain-xenial main
+
+deb-src https://apt.llvm.org/xenial/ llvm-toolchain-xenial main
+
+# 5.0
+
+deb https://apt.llvm.org/xenial/ llvm-toolchain-xenial-5.0 main
+
+deb-src https://apt.llvm.org/xenial/ llvm-toolchain-xenial-5.0 main
+
+# 6.0
+
+deb https://apt.llvm.org/xenial/ llvm-toolchain-xenial-6.0 main
+
+deb-src https://apt.llvm.org/xenial/ llvm-toolchain-xenial-6.0 main
+
+##
+
+deb https://mirrors.aliyun.com/ubuntu/ xenial main restricted universe multiverse
+
+deb https://mirrors.aliyun.com/ubuntu/ xenial-security main restricted universe multiverse
+
+deb https://mirrors.aliyun.com/ubuntu/ xenial-updates main restricted universe multiverse
+
+deb https://mirrors.aliyun.com/ubuntu/ xenial-proposed main restricted universe multiverse
+
+deb https://mirrors.aliyun.com/ubuntu/ xenial-backports main restricted universe multiverse
+
+deb-src https://mirrors.aliyun.com/ubuntu/ xenial main restricted universe multiverse
+
+deb-src https://mirrors.aliyun.com/ubuntu/ xenial-security main restricted universe multiverse
+
+deb-src https://mirrors.aliyun.com/ubuntu/ xenial-updates main restricted universe multiverse
+
+deb-src https://mirrors.aliyun.com/ubuntu/ xenial-proposed main restricted universe multiverse
+
+deb-src https://mirrors.aliyun.com/ubuntu/ xenial-backports main restricted universe multiverse
