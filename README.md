@@ -2,18 +2,17 @@ using wget or curl -O to download script.
 
 for example:
 
-# wget https://github.com/sloth-dev/script4wsl/raw/master/download_list
-
-# wget -i download_list
+wget https://github.com/sloth-dev/script4wsl/raw/master/download_list
+wget -i download_list
 
 or
 
-# wget https://github.com/sloth-dev/script4wsl/raw/master/source.list4china
+wget https://github.com/sloth-dev/script4wsl/raw/master/source.list4china
 
-# cp /etc/apt/source.list /etc/apt/source.list.backup
+cp /etc/apt/source.list /etc/apt/source.list.backup
 
-# cat source.list4china >> /etc/apt/source.list
+cat source.list4china >> /etc/apt/source.list
 
-# wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key|sudo apt-key add -
+wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key|sudo apt-key add -
 
-# apt-get update; apt-get dist-upgrade -uy
+apt-get update; apt-get dist-upgrade -uy
