@@ -49,6 +49,7 @@ Button: Save
 
 6.check Ubuntu information and version
 > bash ~
+$ sudo -s
 # uname -a; lsb_release -a
 If Codename < xenial do
 # do-release-upgrade
@@ -57,8 +58,6 @@ If Codename < xenial do
 # cp /mnt/x/backup/*.deb /var/cache/apt/archives
 
 8.edit source.list and Distribution upgrade
-$ sudo -s
-
 # wget https://raw.githubusercontent.com/sloth-dev/script4wsl/master/source_china.list
 # cat china_source.list > /etc/apt/source.list
 Or
