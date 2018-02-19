@@ -3,8 +3,9 @@ using wget or curl -O downloader get script and archive.
   https://bintray.com/artifact/download/vszakats/generic/curl-7.58.0-win64-mingw.7z
 
 guide:
-  Apply to win10 v1709 16299.125
-  wsl Ubuntu 16.04.3 LTS Codename: xenial
+  Apply to
+    win10 v1709 16299.125
+    wsl Ubuntu 16.04.3 LTS Codename: xenial
 
 0.check state
 > bash
