@@ -23,14 +23,10 @@
 # ubuntu
 91.189.88.161 archive.ubuntu.com security.ubuntu.com
 
-#91.189.88.149 archive.ubuntu.com
-#91.189.88.152 archive.ubuntu.com
-#91.189.88.161 archive.ubuntu.com
-#91.189.88.162 archive.ubuntu.com
+#91.189.88.149 archive.ubuntu.com security.ubuntu.com
+#91.189.88.152 archive.ubuntu.com security.ubuntu.com
+#91.189.88.161 archive.ubuntu.com security.ubuntu.com
+#91.189.88.162 archive.ubuntu.com security.ubuntu.com
 #91.189.91.23 security.ubuntu.com
 #91.189.91.26 security.ubuntu.com
-#91.189.88.149 security.ubuntu.com
-#91.189.88.152 security.ubuntu.com
-#91.189.88.161 security.ubuntu.com
-#91.189.88.162 security.ubuntu.com
 # /ubuntu
