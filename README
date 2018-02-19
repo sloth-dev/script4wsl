@@ -18,8 +18,7 @@ Install fiddler
 > fiddlerSetup.exe
 16.04.2-server-cloudimg-amd64-root.tar.gz sha256: 247314273c421a9c9ab11951ca4543ca2297d2fb557887a9a8948d1295794a91
 
-2.Open PowerShell as Administrator and run:
-Save work!
+2.Open PowerShell as Administrator and run: (WARNING: Save work!)
 > Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 Restart computer when prompted.
 > shutdown -R -T 0
