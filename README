@@ -1,36 +1,6 @@
 using wget or curl -O downloader get script and archive.
-
   https://eternallybored.org/misc/wget/1.19.4/64/wget.exe
-
   https://bintray.com/artifact/download/vszakats/generic/curl-7.58.0-win64-mingw.7z
-
-for example:
-
-  wget https://raw.githubusercontent.com/sloth-dev/script4wsl/master/download_list
-
-  wget -i download_list
-
-or
-
-  cp /etc/apt/source.list /etc/apt/source.list.backup
-  
-  /*
-  
-  wget https://raw.githubusercontent.com/sloth-dev/script4wsl/master/source_china.list
-
-  cat china_source.list >> /etc/apt/source.list
-  
-  or
-  
-  wget https://raw.githubusercontent.com/sloth-dev/script4wsl/master/sources_list_china.sh
-  
-  chmod a+x sources_list_china.sh; ./sources_list_china.sh
-  
-  */
-
-  wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key|sudo apt-key add -
-
-  apt-get update; apt-get dist-upgrade -uy
 
 guide:
 
@@ -48,7 +18,7 @@ if installed goto 6.
 
 3.Restart your computer when prompted.
 
-4.using fiddler launch local archive
+4.using fiddler launch download tar.gz archive
 > fiddlerSetup.exe
 > %LOCALAPPDATA%\Programs\Fiddler\fiddler.exe
 menu: Tools -> Options... -> HTTPS
@@ -91,8 +61,8 @@ or
 # chmod a+x sources_list_china.sh; ./sources_list_china.sh
 
 # wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key | sudo apt-key add -
-# apt-get update; apt-get dist-upgrade -y
+# apt-get update; apt-get dist-upgrade -uy
 
-9.take effect
+9.take effect (maybe use it)
 # ldconfig /usr/local/lib
 # bash
