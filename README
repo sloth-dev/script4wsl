@@ -1,4 +1,4 @@
-Get files with downloader (wget or curl -O)
+Select downloader (wget or curl -O)
   https://eternallybored.org/misc/wget/1.19.4/64/wget.exe
   https://bintray.com/artifact/download/vszakats/generic/curl-7.58.0-win64-mingw.7z
 
@@ -16,21 +16,21 @@ If installed goto 5.
 > wget -i download_list
 Install fiddler
 > fiddlerSetup.exe
-16.04.2-server-cloudimg-amd64-root.tar.gz sha256: 247314273c421a9c9ab11951ca4543ca2297d2fb557887a9a8948d1295794a91
+File .tar.gz sha256: 247314273c421a9c9ab11951ca4543ca2297d2fb557887a9a8948d1295794a91
 
 2.Open PowerShell as Administrator and run: (WARNING: Save your work!)
 > Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 Restart computer when prompted. Or manual
 > shutdown -R -T 0
 
-3.run fiddler launch wsl tar.gz file and install
+3.run fiddler launch wsl tar.gz file and install wsl
 > %LOCALAPPDATA%\Programs\Fiddler\fiddler.exe
 See fiddler_usage_[0|1].png tow file
 
 Window menu: Tools -> Options... -> HTTPS
   Checkbox: [r]Capture HTTPS CONNECTs [r]Decrypt HTTPS traffic [r]Ignore server certificate errors (unsafe)
   Button: ok
-install certificate
+Install certificate
 
 Label: AutoResponder
   Checkbox: [r]Enable rules [r]unmatched requests passthrough [r]Enable Latency
@@ -42,8 +42,7 @@ Button: Save
 
 4.show Ubuntu information and version
 > bash ~
-$ sudo -s
-# uname -a; lsb_release -a
+$ sudo -s; uname -a; lsb_release -a
 If Codename < xenial do
 # do-release-upgrade
 
