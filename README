@@ -24,9 +24,7 @@ or
   
   wget https://raw.githubusercontent.com/sloth-dev/script4wsl/master/sources_list_china.sh
   
-  chmod a+x sources_list_china.sh
-  
-  ./sources_list_china.sh
+  chmod a+x sources_list_china.sh; ./sources_list_china.sh
   
   */
 
