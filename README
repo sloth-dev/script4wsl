@@ -23,7 +23,7 @@ Save work!
 Restart computer when prompted.
 > shutdown -R -T 0
 
-3.run fiddler launch download tar.gz archive and insrall wsl
+3.run fiddler launch download tar.gz archive and install wsl
 > %LOCALAPPDATA%\Programs\Fiddler\fiddler.exe
 
 Window menu: Tools -> Options... -> HTTPS
