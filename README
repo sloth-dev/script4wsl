@@ -6,7 +6,7 @@ guide:
 
 0.check state
 > bash
-if installed goto 6.
+If installed goto 6.
 
 1.using downloader get wsl archive and fiddler tool
 > wget https://raw.githubusercontent.com/sloth-dev/script4wsl/master/download_list
@@ -21,23 +21,23 @@ if installed goto 6.
 4.using fiddler launch download tar.gz archive
 > fiddlerSetup.exe
 > %LOCALAPPDATA%\Programs\Fiddler\fiddler.exe
-menu: Tools -> Options... -> HTTPS
-  checkbox:
+Menu: Tools -> Options... -> HTTPS
+  Checkbox:
     r[Capture HTTPS CONNECTs]
     r[Decrypt HTTPS traffic]
     r[Ignore server certificate errors (unsafe)]
-button: ok
+Button: ok
 
-label: AutoResponder
-  checkbox:
+Label: AutoResponder
+  Checkbox:
     r[Enable rules]
     r[unmatched requests passthrough]
     r[Enable Latency]
-  textbox:
+  Textbox:
     EXACT:https://go.microsoft.com/fwlink/?LinkID=827586
-  textbox:
+  Textbox:
     X:\16.04.2-server-cloudimg-amd64-root.tar.gz
-button: Save
+Button: Save
 
 5.Open any windows console run:
 > lxrun /install /y
@@ -45,7 +45,7 @@ button: Save
 6.check Ubuntu information and version
 > bash ~
 # uname -a; lsb_release -a
-if Codename < xenial do
+If Codename < xenial do
 # do-release-upgrade
 
 7.recovery package (if exist)
@@ -56,9 +56,9 @@ $ sudo -s
 
 # wget https://raw.githubusercontent.com/sloth-dev/script4wsl/master/source_china.list
 # cat china_source.list > /etc/apt/source.list
-or
+Or
 # wget https://raw.githubusercontent.com/sloth-dev/script4wsl/master/sources_list_china.sh
-# chmod a+x sources_list_china.sh; ./sources_list_china.sh
+# bash sources_list_china.sh
 
 # wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key | sudo apt-key add -
 # apt-get update; apt-get dist-upgrade -uy
