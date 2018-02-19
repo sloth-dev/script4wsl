@@ -31,3 +31,69 @@ or
   wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key|sudo apt-key add -
 
   apt-get update; apt-get dist-upgrade -uy
+
+guide:
+
+0.check state
+> bash
+if installed goto 6.
+
+1.using downloader get wsl archive and fiddler tool
+> wget https://raw.githubusercontent.com/sloth-dev/script4wsl/master/download_list
+> wget -i download_list
+> fiddlerSetup.exe
+
+2.Open PowerShell as Administrator and run:
+> Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+
+3.Restart your computer when prompted.
+
+4.using fiddler launch local archive
+> fiddlerSetup.exe
+> %LOCALAPPDATA%\Programs\Fiddler\fiddler.exe
+menu: Tools -> Options... -> HTTPS
+  checkbox:
+    r[Capture HTTPS CONNECTs]
+    r[Decrypt HTTPS traffic]
+    r[Ignore server certificate errors (unsafe)]
+button: ok
+
+label: AutoResponder
+  checkbox:
+    r[Enable rules]
+    r[unmatched requests passthrough]
+    r[Enable Latency]
+  textbox:
+    EXACT:https://go.microsoft.com/fwlink/?LinkID=827586
+  textbox:
+    X:\16.04.2-server-cloudimg-amd64-root.tar.gz
+button: Save
+
+5.Open any windows console run:
+> lxrun /install /y
+
+6.run bash check system information and version
+> bash ~
+# uname -a; lsb_release -a
+if Codename < xenial do
+# do-release-upgrade
+
+7.recovery package (if exist)
+url: https://ubuntu.pkgs.org/16.04/ubuntu-proposed-main-amd64
+# cp /mnt/x/backup/*.deb /var/cache/apt/archives
+
+8.edit source.list and Distribution upgrade
+$ sudo -s
+
+wget https://raw.githubusercontent.com/sloth-dev/script4wsl/master/source_china.list
+cat china_source.list > /etc/apt/source.list
+or
+wget https://raw.githubusercontent.com/sloth-dev/script4wsl/master/sources_list_china.sh
+chmod a+x sources_list_china.sh; ./sources_list_china.sh
+
+wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key | sudo apt-key add -
+apt-get update; apt-get dist-upgrade -y
+
+9.take effect
+# ldconfig /usr/local/lib
+# bash
