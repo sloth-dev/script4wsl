@@ -14,9 +14,21 @@ or
 
   cp /etc/apt/source.list /etc/apt/source.list.backup
   
-  wget https://raw.githubusercontent.com/sloth-dev/script4wsl/master/china_source.list
+  /*
+  
+  wget https://raw.githubusercontent.com/sloth-dev/script4wsl/master/source_china.list
 
   cat china_source.list >> /etc/apt/source.list
+  
+  or
+  
+  wget https://raw.githubusercontent.com/sloth-dev/script4wsl/master/sources_list_china.sh
+  
+  chmod a+x sources_list_china.sh
+  
+  ./sources_list_china.sh
+  
+  */
 
   wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key|sudo apt-key add -
 
