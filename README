@@ -21,22 +21,16 @@ Install
 > Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 Restart computer when prompted.
 
-3.using fiddler launch download tar.gz archive
+3.run fiddler launch download tar.gz archive
 > %LOCALAPPDATA%\Programs\Fiddler\fiddler.exe
 
 Window menu: Tools -> Options... -> HTTPS
-  Checkbox:
-    r[Capture HTTPS CONNECTs]
-    r[Decrypt HTTPS traffic]
-    r[Ignore server certificate errors (unsafe)]
+  Checkbox: [r]Capture HTTPS CONNECTs [r]Decrypt HTTPS traffic [r]Ignore server certificate errors (unsafe)
   Button: ok
 install certificate
 
 Label: AutoResponder
-  Checkbox:
-    r[Enable rules]
-    r[unmatched requests passthrough]
-    r[Enable Latency]
+  Checkbox: [r]Enable rules [r]unmatched requests passthrough [r]Enable Latency
   Textbox: EXACT:https://go.microsoft.com/fwlink/?LinkID=827586
   Textbox: X:\16.04.2-server-cloudimg-amd64-root.tar.gz
 Button: Save
@@ -65,5 +59,4 @@ Or
 # apt-get update; apt-get dist-upgrade -uy
 
 8.take effect (maybe use it)
-# ldconfig /usr/local/lib
-# bash
+# ldconfig /usr/local/lib; bash
