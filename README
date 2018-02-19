@@ -41,7 +41,7 @@ Button: Save
 
 > lxrun /install /y
 
-4.check Ubuntu information and version
+4.show Ubuntu information and version
 > bash ~
 $ sudo -s
 # uname -a; lsb_release -a
