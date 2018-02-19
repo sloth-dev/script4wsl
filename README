@@ -51,7 +51,7 @@ If Codename < xenial do
 5.recovery package (if exist)
 # cp /mnt/x/backup/*.deb /var/cache/apt/archives
 
-6.edit source.list and Distribution upgrade
+6.Rewrite source.list and upgrade Distribution
 # wget https://raw.githubusercontent.com/sloth-dev/script4wsl/master/source_china.list
 # cat china_source.list > /etc/apt/source.list
 Or
