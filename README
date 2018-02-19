@@ -25,6 +25,7 @@ Restart computer when prompted.
 
 3.run fiddler launch download tar.gz archive and install wsl
 > %LOCALAPPDATA%\Programs\Fiddler\fiddler.exe
+See fiddler_usage_[0|1].png tow file
 
 Window menu: Tools -> Options... -> HTTPS
   Checkbox: [r]Capture HTTPS CONNECTs [r]Decrypt HTTPS traffic [r]Ignore server certificate errors (unsafe)
