@@ -72,7 +72,7 @@ button: Save
 5.Open any windows console run:
 > lxrun /install /y
 
-6.run bash check system information and version
+6.check Ubuntu information and version
 > bash ~
 # uname -a; lsb_release -a
 if Codename < xenial do
