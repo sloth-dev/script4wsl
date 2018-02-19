@@ -4,7 +4,7 @@ Select downloader (wget or curl -O)
 
 guide:
   Apply to
-    win10 v1709 16299.125
+    win10 v1709 build 16299.125
     wsl Ubuntu 16.04.3 LTS Codename: xenial
 
 0.check state
