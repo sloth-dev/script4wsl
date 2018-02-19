@@ -7,7 +7,7 @@ guide:
 
 0.check state
 > bash
-If installed goto 5.
+If installed goto 4.
 
 1.download wsl .tar.gz file and fiddler tool
 File .tar.gz sha256: 247314273c421a9c9ab11951ca4543ca2297d2fb557887a9a8948d1295794a91
