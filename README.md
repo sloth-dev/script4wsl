@@ -1,6 +1,7 @@
 using wget or curl -O to download script.
 
   https://eternallybored.org/misc/wget/1.19.4/64/wget.exe
+
   https://bintray.com/artifact/download/vszakats/generic/curl-7.58.0-win64-mingw.7z
 
 for example:
