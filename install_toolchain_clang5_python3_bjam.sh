@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 apt-get install clang-5.0 lldb-5.0 python3 p7zip-full -y
 ln -s /usr/bin/clang-5.0 /usr/bin/clang
 ln -s /usr/bin/clang++-5.0 /usr/bin/clang++
