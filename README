@@ -12,11 +12,11 @@ for example:
 
 or
 
-  wget https://github.com/sloth-dev/script4wsl/raw/master/source.list4china
+  wget https://github.com/sloth-dev/script4wsl/raw/master/china_source.list
 
   cp /etc/apt/source.list /etc/apt/source.list.backup
 
-  cat source.list4china >> /etc/apt/source.list
+  cat china_source.list >> /etc/apt/source.list
 
   wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key|sudo apt-key add -
 
