@@ -23,12 +23,14 @@ If installed goto 6.
 4.using fiddler launch download tar.gz archive
 > fiddlerSetup.exe
 > %LOCALAPPDATA%\Programs\Fiddler\fiddler.exe
-Menu: Tools -> Options... -> HTTPS
+
+Window menu: Tools -> Options... -> HTTPS
   Checkbox:
     r[Capture HTTPS CONNECTs]
     r[Decrypt HTTPS traffic]
     r[Ignore server certificate errors (unsafe)]
-Button: ok
+  Button: ok
+install certificate
 
 Label: AutoResponder
   Checkbox:
