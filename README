@@ -79,20 +79,19 @@ if Codename < xenial do
 # do-release-upgrade
 
 7.recovery package (if exist)
-url: https://ubuntu.pkgs.org/16.04/ubuntu-proposed-main-amd64
 # cp /mnt/x/backup/*.deb /var/cache/apt/archives
 
 8.edit source.list and Distribution upgrade
 $ sudo -s
 
-wget https://raw.githubusercontent.com/sloth-dev/script4wsl/master/source_china.list
-cat china_source.list > /etc/apt/source.list
+# wget https://raw.githubusercontent.com/sloth-dev/script4wsl/master/source_china.list
+# cat china_source.list > /etc/apt/source.list
 or
-wget https://raw.githubusercontent.com/sloth-dev/script4wsl/master/sources_list_china.sh
-chmod a+x sources_list_china.sh; ./sources_list_china.sh
+# wget https://raw.githubusercontent.com/sloth-dev/script4wsl/master/sources_list_china.sh
+# chmod a+x sources_list_china.sh; ./sources_list_china.sh
 
-wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key | sudo apt-key add -
-apt-get update; apt-get dist-upgrade -y
+# wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key | sudo apt-key add -
+# apt-get update; apt-get dist-upgrade -y
 
 9.take effect
 # ldconfig /usr/local/lib
