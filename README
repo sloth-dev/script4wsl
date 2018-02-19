@@ -38,10 +38,8 @@ Label: AutoResponder
     r[Enable rules]
     r[unmatched requests passthrough]
     r[Enable Latency]
-  Textbox:
-    EXACT:https://go.microsoft.com/fwlink/?LinkID=827586
-  Textbox:
-    X:\16.04.2-server-cloudimg-amd64-root.tar.gz
+  Textbox: EXACT:https://go.microsoft.com/fwlink/?LinkID=827586
+  Textbox: X:\16.04.2-server-cloudimg-amd64-root.tar.gz
 Button: Save
 
 5.Open any windows console run:
