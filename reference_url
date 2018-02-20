@@ -1,4 +1,4 @@
-https://apt.llvm.org
+https://apt.llvm.org https://compiler-rt.llvm.org https://libcxx.llvm.org https://libcxxabi.llvm.org 
 https://curl.haxx.se/download.html#Win64
 https://debian-handbook.info/browse/zh-TW/stable
 https://dl.bintray.com/boostorg/release
