@@ -27,9 +27,8 @@ See fiddler_usage_[0-9].png files
 
 fiddler Window menu: Tools -> Options... -> HTTPS
   Checkbox: [r]Capture HTTPS CONNECTs [r]Decrypt HTTPS traffic [r]Ignore server certificate errors (unsafe)
-  Installed certificate
-  Button: Actions -> Trust Root Certificate
-    Button: YES * 3
+  Button: Actions -> Trust Root Certificate 
+    Button: YES * 3 (install certificate)
   Button: OK
 Button: OK
 
